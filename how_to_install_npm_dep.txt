@@ -1,0 +1,10 @@
+npm i express dotenv mongoose colors
+npm i -D nodemon
+
+and then change scripts to this
+
+  "scripts": {
+    "test": "node backend/server.js",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
