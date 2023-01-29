@@ -8,3 +8,9 @@ and then change scripts to this
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
   },
+
+
+run mongodb using "mongod"
+
+you can replace script server to "server": "mongod && nodemon backend/server.js"
+to run mongodb and nodemon at the same time
